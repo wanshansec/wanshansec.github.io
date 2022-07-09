@@ -133,7 +133,7 @@ textarea {
     color: inherit;
     font: inherit;
     margin: 0;
-    background: black;
+    background: #1a2237;
 }
 
 button {
@@ -1390,7 +1390,7 @@ html {
 }
 
 body {
-    font-family: DOS, Monaco, Menlo, Consolas, "Courier New", monospace;
+    font-family: -apple-system,Nunito,"ZCOOL XiaoWei",BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
     font-size: 18px;
     line-height: 20px;
     color: rgb(255, 255, 255);
@@ -1762,7 +1762,7 @@ u {
 
 del,
 s {
-    background: #000;
+    background: #1a2237;
     color: #555
 }
 
@@ -1933,7 +1933,7 @@ code,
 kbd,
 pre,
 samp {
-    font-family: DOS, Monaco, Menlo, Consolas, "Courier New", monospace
+    font-family: -apple-system,Nunito,"ZCOOL XiaoWei",BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif
 }
 
 code {
@@ -3756,8 +3756,8 @@ select[multiple].form-group-lg .form-control {
     touch-action: manipulation;
     background-image: none;
     padding: 0 10px;
-    -webkit-box-shadow: 10px 10px 0 #000;
-    box-shadow: 10px 10px 0 #000;
+    /* -webkit-box-shadow: 10px 10px 0 #000;
+    box-shadow: 10px 10px 0 #000; */
     cursor: default;
     border: 0;
     -webkit-user-select: none;
@@ -4826,7 +4826,8 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
 
 .navbar-brand {
     float: left;
-    padding: 0 20px;
+    padding: 0;
+    margin-right: 20px;
     line-height: 20px
 }
 
@@ -6569,7 +6570,7 @@ button.close {
     z-index: 1070;
     display: block;
     visibility: visible;
-    font-family: DOS, Monaco, Menlo, Consolas, "Courier New", monospace;
+    font-family: -apple-system,Nunito,"ZCOOL XiaoWei",BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
     font-size: 18px;
     line-height: 20px;
     opacity: 0;
@@ -6618,7 +6619,7 @@ button.close {
     display: none;
     max-width: 200px;
     padding: 0;
-    font-family: DOS, Monaco, Menlo, Consolas, "Courier New", monospace;
+    font-family: -apple-system,Nunito,"ZCOOL XiaoWei",BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
     font-size: 18px;
     line-height: 20px;
     text-align: left;

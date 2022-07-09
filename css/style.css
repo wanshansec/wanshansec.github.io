@@ -45,7 +45,7 @@ body {
 .page,
 .post {
     line-height: 1.5em;
-    font-family: Fira code,SimHei,Monaco, Menlo, Consolas,DOS,  'Courier New', monospace
+    font-family: -apple-system,Nunito,"ZCOOL XiaoWei",BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif
 }
 
 .page .more {
@@ -150,7 +150,7 @@ li i {
 }
 
 #local-search-input {
-    background-color: #000;
+    background-color: #1a2237;
     color: #fff;
     font-family: dos;
     -webkit-text-fill-color: #bbb
@@ -160,7 +160,7 @@ li i {
     scroll: auto;
     overflow: auto;
     max-height: 3in;
-    background-color: #000
+    background-color: #1a2237
 }
 
 ul.search-result-list {
@@ -209,7 +209,7 @@ a.label-anchor {
     text-align: right;
     width: 200px;
     left: -210px;
-    font-family: DOS, SimHei, Monaco, Menlo, Consolas, 'Courier New', monospace
+    font-family: -apple-system,Nunito,"ZCOOL XiaoWei",BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif
 }
 
 a.label-anchor:target span {
@@ -254,7 +254,7 @@ blockquote ol,
 blockquote ul,
 blockquote li,
 .slogan {
-    font-family: DOS, SimHei, Monaco, Menlo, Consolas, 'Courier New', monospace
+    font-family: -apple-system,Nunito,"ZCOOL XiaoWei",BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif
 }
 
 img,
@@ -375,7 +375,7 @@ h6 {
     text-rendering: optimizelegibility;
     font-weight: bold;
     line-height: 1.2em;
-    font-family: DOS, SimHei, Monaco, Menlo, Consolas, 'Courier New', monospace;
+    font-family: -apple-system,Nunito,"ZCOOL XiaoWei",BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
     color: #fff
 }
 
@@ -422,7 +422,7 @@ em{
     font-size: 1.5em;
     line-height: 1.3em;
     font-weight: bold;
-    font-family: DOS, SimHei, Monaco, Menlo, Consolas, 'Courier New', monospace
+    font-family: -apple-system,Nunito,"ZCOOL XiaoWei",BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif
 }
 
 .page h3.title div.article-title {
@@ -536,13 +536,13 @@ hr {
 
 .logo {
     background: url("../favicon.png") no-repeat left top;
-    background-size: 5em
+    background-size: 3em
 }
 
 .logo>h1 {
-    padding-left: 3em;
-    font-size: 1.5em;
-    line-height: 2.0em
+    padding-left: 2.8em;
+    font-size: 1.1em;
+    line-height: 1.5em
 }
 
 .fa-heart:before {
@@ -645,4 +645,17 @@ border: 2px solid rgb(255, 255, 255) !important;
 }
 .leancloud-visitors-count{
     font-size: 12px;
+}
+
+/* customize */
+#main-nav {
+    padding-top: 1rem;
+}
+
+body {
+    background-color: #1a2237;
+}
+
+.navbar-inverse {
+    background-color: #1a2237;
 }
