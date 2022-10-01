@@ -2,4 +2,4 @@
 title: Hello World
 ---
 
-开头先来个 Hello World!
+先来个 Hello World, 听说这个是惯例。
